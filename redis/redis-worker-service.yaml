@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-worker
+  labels:
+    app: redis
+    role: worker
+    tier: backend
+    name: redis-master-deployment-for-gke
+spec:
+  ports:
+  - port: 6379
+  selector:
+    app: redis
+    role: worker
+    tier: backend
+    
