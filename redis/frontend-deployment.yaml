@@ -28,5 +28,3 @@ template:
     value: dns
     ports:
     - containerPort: 80
-      
-
