@@ -7,5 +7,4 @@ Some steps:
 3. Authenticate kubectl with cloud:
 ```sh gcloud container clusters get-credentials <our-cluster-name> --zone=<zone> ```
 
-
-![gke drawio-2](https://user-images.githubusercontent.com/20015341/140773908-684ba5a7-deab-40c5-b628-95afc3a1bb07.png)
+![gke3 drawio](https://user-images.githubusercontent.com/20015341/140774521-d483b61d-35a7-4850-8073-58c67bf5a247.png)
