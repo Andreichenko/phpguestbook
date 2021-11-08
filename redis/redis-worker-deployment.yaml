@@ -22,9 +22,9 @@ spec:
       - name: worker
         image: gcr.io/google_samples/gb-redisslave:v2
         resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+          requests:
+            cpu: 100m
+            memory: 100Mi
         env:
         - name: GET_HOSTS_FROM
           value: dns
