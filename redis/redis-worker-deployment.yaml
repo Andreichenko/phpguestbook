@@ -10,7 +10,6 @@ spec:
       app: redis
       role: worker
       tier: backend
-      name: redis-master-deployment-for-gke
   replicas: 2
   template:
     metadata:
@@ -18,7 +17,6 @@ spec:
         app: redis
         role: worker
         tier: backend
-        name: redis-master-deployment-for-gke
     spec:
       containers:
       - name: worker

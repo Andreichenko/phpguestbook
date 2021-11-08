@@ -6,7 +6,6 @@ metadata:
     app: redis
     role: master
     tier: backend
-    name: redis-master-deployment-for-gke
 spec:
   ports:
   - port: 6379
