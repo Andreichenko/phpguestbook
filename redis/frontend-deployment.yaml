@@ -19,12 +19,12 @@ spec:
       containers:
       - name: php-redis
         image: gcr.io/google-examples/gb-frontend:v4
-      resources:
-        requests:
-          cpu: 100m
-          memory: 100Mi
-      env:
-      - name: GET_HOSTS_FROM
-      value: dns
-      ports:
-      - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        env:
+        - name: GET_HOSTS_FROM
+          value: dns
+        ports:
+        - containerPort: 80
