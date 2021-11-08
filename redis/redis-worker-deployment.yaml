@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: gcr.io/google-samples/gb-redisworker:v1
+        image: gcr.io/google_samples/gb-redisslave:v3
         resources:
           limits:
             memory: "128Mi"
@@ -30,4 +30,3 @@ spec:
           value: dns
         ports:
         - containerPort: 6379
-      restartPolicy: Always
