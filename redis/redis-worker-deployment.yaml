@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: worker
-        image: k8s.gcr.io/google-samples/gb-redisslave:v3
+        image: gcr.io/google-samples/gb-redisslave:v3
         resources:
           limits:
             memory: "128Mi"
