@@ -30,3 +30,4 @@ spec:
           value: dns
         ports:
         - containerPort: 6379
+      restartPolicy: Always
