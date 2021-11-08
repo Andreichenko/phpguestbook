@@ -8,4 +8,4 @@ Some steps:
 ```sh gcloud container clusters get-credentials <our-cluster-name> --zone=<zone> ```
 
 
-![gke drawio](https://user-images.githubusercontent.com/20015341/140773479-51bea6f8-bfee-4216-bcc7-17960ce2ef56.png)
+![gke drawio-2](https://user-images.githubusercontent.com/20015341/140773908-684ba5a7-deab-40c5-b628-95afc3a1bb07.png)
